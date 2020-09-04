@@ -2,7 +2,7 @@
 
 ## usage
 ```
-$ curl -L https://raw.githubusercontent.com/ksk001100/arch_setup/master/setup.zsh | zsh
+$ curl -L https://raw.githubusercontent.com/ksk001100/arch_setup/master/partition.zsh | zsh
 ↓ # chroot
 $ curl -L https://raw.githubusercontent.com/ksk001100/arch_setup/master/chroot.bash | bash
 $ exit
