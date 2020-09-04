@@ -16,3 +16,6 @@ mkinitcpio -p linux-zen
 # boot loader setup
 grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=arch --boot-directory=/boot/efi/EFI --recheck
 grub-mkconfig -o /boot/efi/EFI/grub/grub.cfg
+
+# root password setup
+passwd
