@@ -18,7 +18,7 @@ mkdir /mnt/boot/efi
 mount /dev/nvme0n1p1 /mnt/boot/efi
 
 # base package install
-pacstrap /mnt base base-devel linux-zen linux-firmware grub dosfstools efibootmgr netctl iw wpa_supplicant networkmanager dialog xfsprogs vim
+pacstrap /mnt base base-devel linux-zen linux-firmware grub dosfstools efibootmgr netctl iw wpa_supplicant networkmanager dialog xfsprogs vim git
 
 # create fstab
 genfstab -U /mnt >> /mnt/etc/fstab
