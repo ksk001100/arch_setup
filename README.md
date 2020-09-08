@@ -7,5 +7,5 @@ $ curl -L https://raw.githubusercontent.com/ksk001100/arch_setup/master/partitio
 $ curl -L https://raw.githubusercontent.com/ksk001100/arch_setup/master/chroot.bash | bash
 $ exit
 $ shutdown -h now
-↓ # Go reboot!!
+↓ # Set the root password and reboot
 ```
